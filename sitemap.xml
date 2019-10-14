@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>https://pydatacharlotte.com/</loc>
-    <priority>1</priority>
+    <lastmod>2019-10-14</lastmod>
+    <image:image>
+      <image:loc>https://pydatacharlotte.com/Ravishankar_Sivasubramaniam_0.png</image:loc>
+      <image:caption>Ravishankar Sivasubramaniam PyData Charlotte</image:caption>
+    </image:image>
   </url>
-  
 </urlset>
