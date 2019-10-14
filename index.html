@@ -4,17 +4,27 @@
   content="Charlotte, Huntersville, Mecklenburg, Python, Cloud, GCP, devops, Ravishankar, Sivasubramaniam, Ravi, ATD, American Tire Distributors, Tire, Nielsen, NTT, Data Warehouse, Business Intelligence"
 />
 <meta property="og:title" content="PyData Charlotte" />
-<meta property="og:image" content="https://pydatacharlotte.com/Ravishankar_Sivasubramaniam_0.png" />
+<meta
+  property="og:image"
+  content="https://pydatacharlotte.com/Ravishankar_Sivasubramaniam_0.png"
+/>
 
 <html lang="en-us">
   <head>
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-59ZR6QV');</script>
-<!-- End Google Tag Manager -->
+    <script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-59ZR6QV");
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>PyData Charlotte</title>
@@ -48,7 +58,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
       crossorigin="anonymous"
     />
- 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
@@ -56,201 +66,212 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       crossorigin="anonymous"
     ></script>
 
-  <style>
+    <style>
       html body {
         font-family: "Roboto", sans-serif;
         background-color: white;
       }
 
-html, body {
-    height: 100%;
-}
+      html,
+      body {
+        height: 100%;
+      }
 
-body {
-    padding-top: 55px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-}
+      body {
+        padding-top: 55px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+      }
 
-main {
-    margin: auto;
-    padding: 25px;
-    flex: 1 0 auto;
-    max-width: 750px;
-}
+      main {
+        margin: auto;
+        padding: 25px;
+        flex: 1 0 auto;
+        max-width: 750px;
+      }
 
-/*footer*/
+      /*footer*/
 
-.copyright {
-    margin: 15px 0;
-}
+      .copyright {
+        margin: 15px 0;
+      }
 
-/*home page*/
+      /*home page*/
 
-.intro {
-    transform: translateY(22vh);
-}
+      .intro {
+        transform: translateY(22vh);
+      }
 
-.intro > h1 {
-    color: #212121;
-    font-size: 6vh;
-}
+      .intro > h1 {
+        color: #212121;
+        font-size: 6vh;
+      }
 
-.intro > h2 {
-    color: #757575;
-    font-size: 3vmin;
-}
+      .intro > h2 {
+        color: #757575;
+        font-size: 3vmin;
+      }
 
-.intro > .profile {
-    width: 10vh;
-    height: 10vh;
-    border-radius: 50%;
-}
+      .intro > .profile {
+        width: 10vh;
+        height: 10vh;
+        border-radius: 50%;
+      }
 
+      a.icon:hover {
+        text-decoration: none;
+      }
 
-a.icon:hover {
-    text-decoration: none;
-}
+      a:hover {
+        color: var(--accent) !important;
+      }
 
-a:hover {
-    color: var(--accent) !important;
-}
+      /*paginator at bottom of list view*/
 
-/*paginator at bottom of list view*/
+      .pages {
+        padding: 15px 0;
+      }
 
-.pages {
-    padding: 15px 0;
-}
+      .pages-icon {
+        padding: 0 15px;
+      }
 
-.pages-icon {
-    padding: 0 15px;
-}
+      /*list item for posts and projects*/
 
-/*list item for posts and projects*/
+      .item {
+        padding: 10px 0;
+      }
 
-.item {
-    padding: 10px 0;
-}
+      .item-tag {
+        background-color: var(--accent);
+      }
 
-.item-tag {
-    background-color: var(--accent);
-}
+      /*navigation bar icons*/
 
-/*navigation bar icons*/
+      .navbar-icon {
+        font-size: 125%;
+        display: inline-block !important;
+      }
 
-.navbar-icon {
-    font-size: 125%;
-    display: inline-block !important;
-}
+      /*coloured borders at top and bottom of the page*/
 
-/*coloured borders at top and bottom of the page*/
+      .navbar.navbar-default {
+        border-top: var(--border-width) solid var(--accent);
+      }
 
-.navbar.navbar-default {
-    border-top: var(--border-width) solid var(--accent);
-}
+      footer {
+        border-bottom: var(--border-width) solid var(--accent);
+      }
 
-footer {
-    border-bottom: var(--border-width) solid var(--accent);
-}
+      img {
+        max-width: 50%;
+      }
 
-img {
-    max-width: 50%;
-}
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create two equal columns that sits next to each other */
-  .column {
-    flex: 50%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-  }
-  </style>
-</head>
-<body>
-      <main>
+      /* Create two equal columns that sits next to each other */
+      .column {
+        flex: 50%;
+        padding: 0 4px;
+      }
 
-  <div class="intro">
-    <div>
-              <img
-          class="profile"
-          src="Ravishankar_Sivasubramaniam_0.png"
-          alt="Ravishankar Sivasubramaniam Charlotte"
-        />
-        <h4><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Charlotte, NC</h4>
-       <div class="justify-content-center">
-         <a href="https://www.meetup.com/PyDataCharlotte/" class="btn btn-dark btn-lg active" role="button">Register</a>
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="intro">
+        <div>
+          <img
+            class="profile"
+            src="Ravishankar_Sivasubramaniam_0.png"
+            alt="Ravishankar Sivasubramaniam Charlotte"
+          />
+          <h4><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Charlotte, NC</h4>
+          <div class="justify-content-center">
+            <a
+              href="https://www.meetup.com/PyDataCharlotte/"
+              class="btn btn-dark btn-lg active"
+              role="button"
+              >Register</a
+            >
+          </div>
 
-      </div>
+          <div class="justify-content-center">
+            <ul class="nav">
+              <li class="navbar-icon">
+                <a href="mailto:ravi@pydatacharlotte.com"
+                  ><i class="fas fa-envelope"></i
+                ></a>
+              </li>
 
-        <div class="justify-content-center">
-          <ul class="nav">
-            <li class="navbar-icon">
-              <a href="mailto:ravi@pydatacharlotte.com"
-                ><i class="fas fa-envelope"></i
-              ></a>
-            </li>
+              <li class="navbar-icon">
+                <a href="https://github.com/pydatacharlotte/"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
 
-            <li class="navbar-icon">
-              <a href="https://github.com/pydatacharlotte/"
-                ><i class="fab fa-github"></i
-              ></a>
-            </li>
+              <li class="navbar-icon">
+                <a href="https://www.linkedin.com/company/pydataclt/"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
 
-            <li class="navbar-icon">
-              <a href="https://www.linkedin.com/company/pydataclt/"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-            </li>
-
-            <li class="navbar-icon">
-              <a href="https://twitter.com/pydatacharlotte"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </li>
-               <li class="navbar-icon">
-              <a href="https://www.meetup.com/PyDataCharlotte/"
-                ><i class="fab fa-meetup"></i
-              ></a>
-            </li>
-          </ul>
+              <li class="navbar-icon">
+                <a href="https://twitter.com/pydatacharlotte"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li class="navbar-icon">
+                <a href="https://www.meetup.com/PyDataCharlotte/"
+                  ><i class="fab fa-meetup"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
-      
-    </div>
-  </div>
-
+      </div>
     </main>
 
     <footer>
       <p class="copyright text-muted">
-        Copyright &#xA9; 2018 PyData Charlotte. All Rights Reserved.
-        Powered by <a href="https://gohugo.io">Hugo</a> and
+        Copyright &#xA9; 2018 PyData Charlotte. All Rights Reserved. Powered by
+        <a href="https://gohugo.io">Hugo</a> and
         <a href="https://github.com/calintat/minimal">Minimal</a>
+        Organizers: Ravishankar Sivasubramaniam & Salman Yousaf
       </p>
     </footer>
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59ZR6QV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-149364199-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-59ZR6QV"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-149364199-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-149364199-1');
-</script>
-
+      gtag("config", "UA-149364199-1");
+    </script>
   </body>
 </html>
-
