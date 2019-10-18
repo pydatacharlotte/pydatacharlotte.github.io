@@ -9,4 +9,12 @@
       <image:caption>Ravishankar Sivasubramaniam PyData Charlotte</image:caption>
     </image:image>
   </url>
+  <url>
+    <loc>https://pydatacharlotte.com/images/</loc>
+    <lastmod>2019-10-17</lastmod>
+    <image:image>
+      <image:loc>https://pydatacharlotte.com/images/ravishankar_sivasubramaniam_facebook_cover.png</image:loc>
+      <image:caption>Ravishankar Sivasubramaniam Facebook Cover</image:caption>
+    </image:image>
+  </url>
 </urlset>
